@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./theme/themeContext";
-import Header from "./components/Header";
+import Header from "./context/Header";
 
 const workSans = Work_Sans({
   variable: "--font-work-sans",
